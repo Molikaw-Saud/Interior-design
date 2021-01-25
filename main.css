@@ -21,7 +21,7 @@ body {
     padding: 2.625rem 4.75rem 0 4.75rem;
 }
 
-/* header style*/
+/* ================================== header style =============================== */
 
 header {
     display: flex;
@@ -51,4 +51,25 @@ ul li {
 ul li a {
     text-decoration: none;
     color: #fff;
+}
+.menu {
+    display: none;
+}
+
+
+@media (max-width: 860px) {
+    body {
+        padding: 2.625rem 1.75rem 0 1.75rem;
+    }
+    ul {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        display: inline;
+        color: #fff;
+    }
 }
