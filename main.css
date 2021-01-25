@@ -1,15 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap');
+
 /* 
 font-family: 'Crimson Pro', serif;
 font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
 */
+
 :root {
-    --font-One: font-family: 'Crimson Pro', serif; /*This font for logo*/
-    --font-Tow: font-family: 'Lora', serif; /*This font for first <h1></h1>*/
-    --font-Three: font-family: 'Montserrat', sans-serif; /*This font for content and the card*/
+    --font-One: 'Crimson Pro', serif; /*This font for logo*/
+    --font-Tow: 'Lora', serif; /*This font for first <h1></h1>*/
+    --font-Three: 'Montserrat', sans-serif; /*This font for content and the card*/
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background-color: rgba(24, 23, 25, 1);
+    padding: 2.625rem 4.75rem 0 4.75rem;
+}
+
+/* header style*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+h1 {
+    font-family: var(--font-One);
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+ul {
+    display: flex;
+}
+ul li {
+    margin-left: 5rem;
+    list-style: none;
+    font-family: var(--font-Three);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
 }
