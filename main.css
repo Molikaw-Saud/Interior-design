@@ -1,0 +1,15 @@
+/* 
+font-family: 'Crimson Pro', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+:root {
+    --font-One: font-family: 'Crimson Pro', serif; /*This font for logo*/
+    --font-Tow: font-family: 'Lora', serif; /*This font for first <h1></h1>*/
+    --font-Three: font-family: 'Montserrat', sans-serif; /*This font for content and the card*/
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
