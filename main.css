@@ -18,7 +18,7 @@ font-family: 'Montserrat', sans-serif; 300 and 600, 500
 }
 body {
     background-color: rgba(24, 23, 25, 1);
-    padding: 2.625rem 4.75rem 0 4.75rem;
+    padding: 2.625rem 1.75rem 0 1.75rem;
 }
 
 /* ================================== header style =============================== */
@@ -58,9 +58,6 @@ ul li a {
 
 
 @media (max-width: 860px) {
-    body {
-        padding: 2.625rem 1.75rem 0 1.75rem;
-    }
     ul {
         display: none;
     }
@@ -116,7 +113,97 @@ ul li a {
 
 .section-2 {
     margin-top: 2.31rem;
+    position: relative;
 }
 .main {
     width: 100%;
 }
+.card {
+     width: 300px;
+    height: 138px;
+    position: absolute;
+    background: rgba(24, 23, 25, 1);
+    color: white;
+    left: 80px;
+    bottom: -70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.avatr-image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 7.32px 10.24px;
+}
+.info h4 {
+    font-family: var(--font-Three);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: .3rem;
+}
+.info p {
+    font-family: var(--font-Three);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #828282;
+}
+.text-de {
+    font-family: var(--font-Tow);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 10px 20px;
+    max-width: 210px;
+}
+footer {
+    margin-top: 100px;
+}
+.line {
+    border: 1px solid #a9a9a9;
+    width: 261px;
+    margin: 1rem auto;
+}
+.footer-text {
+    font-family: var(--font-Three);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9a9a9;
+    text-align: center;
+}
+
+
+/* ================== Desktop ===================== */
+
+@media (min-width: 868px) {
+    .contanire {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 10px;
+         margin-top: 177px;
+    }
+    .section-2 {
+        margin: 0rem;
+    }
+    .card {
+       left: 250px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
